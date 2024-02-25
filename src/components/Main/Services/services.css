@@ -50,12 +50,12 @@
     
 }
 
-
 .services-grid__items-title{
     color: #67430C;
     font-size: 20px;
     font-weight: 500;
     padding: 20px 23px;
+   
 }
 .services-grid__items-title-end{
     color: #67430C;
@@ -64,13 +64,6 @@
     padding: 20px 23px;
 }
 
-.services-list-link {
-    text-decoration: none;
-}
-
-.services-list-link-bg {
-    text-decoration: none;
-}
 
 .services-grid__items_agro{
     background-image: url(/public/img/services-agro.jpg);

@@ -13,13 +13,13 @@ export default function Services() {
         <div className='services-grid'>
         
             <a className='services-grid__items services-grid__items_agro'>
-            <Link to={`/agroStore`} >
+            <NavLink to={`/agroStore`}>
               <div className='services-grid__items-holder'>
               
                 <div className='services-grid__items-title'>Агро</div>
                 
               </div>
-              </Link>
+              </NavLink>
             </a>
         
             <a className='services-grid__items services-grid__items_hotel'>
@@ -55,7 +55,7 @@ export default function Services() {
         </div>
 
         <div className="services-list">
-        <Link to={`/agroStore`} >
+        <NavLink to={`/agroStore`}>
           <a href="" className="services-list-link"> 
           
             <div className="services-list-link-bg">
@@ -63,7 +63,7 @@ export default function Services() {
             </div>
           
           </a>
-          </Link>
+          </NavLink>
           <a href="" className="services-list-link">
             <div className="services-list-link-bg">
               <h3>Гостиница</h3>

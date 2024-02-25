@@ -385,11 +385,13 @@ body {
     width: max-content;
     gap: 10px;
     margin-top: 10px;
-
+    width: max-content;
 }
 
 .basket__item_logo {
     padding: 15px 5px 0 0;
+    width: 180px;
+    height: 110px;
 }
 
 .basket__item__desc {
@@ -536,6 +538,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 200px 0;
 }
 
 .item__img {

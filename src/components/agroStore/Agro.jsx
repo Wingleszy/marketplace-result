@@ -13,10 +13,11 @@ import plant from '../../img/Vector (10).svg'
 import add1 from '../../img/Rectangle 4.png'
 import add2 from '../../img/Rectangle 5.png'
 import add3 from '../../img/Rectangle 6.png'
-import carrot from '../../img/image 2 (2).png'
+import carrot from '../../img/carrot.png'
 import vinograd from '../../img/65be074432b6e4000d2536bd 1.png'
 import yabloko from '../../img/65be07fb32b6e40009253baf 1.png'
 import grusha from '../../img/изображение_2024-02-03_123501307 1.png'
+import cucumber1 from '../../img/cucumber-isolated_93675-131293-Photoroom.png-Photoroom.png'
 
 import Header from '../Header/Header'
 import { Link, useLocation } from 'react-router-dom'
@@ -111,9 +112,9 @@ export default function Agro() {
                                 <p>1 кг</p>
                                 <span>129 Р</span>
                             </Link>
-                            <Link to={"/item"} state={{name: 'Морковь', img: carrot}} className="list__card">
-                                <img src={carrot} alt="" />
-                                <h6>Морковь</h6>
+                            <Link to={"/item"} state={{name: 'Огурец', img: cucumber1}} className="list__card">
+                                <img src={cucumber1} alt="" />
+                                <h6>Огурец</h6>
                                 <p>1 кг</p>
                                 <span>129 Р</span>
                             </Link>
