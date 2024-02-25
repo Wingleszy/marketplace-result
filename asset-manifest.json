@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/marketplace-result/static/css/main.f5d95838.css",
-    "main.js": "/marketplace-result/static/js/main.1c26b987.js",
+    "main.js": "/marketplace-result/static/js/main.af3747b7.js",
     "static/media/carrot.png": "/marketplace-result/static/media/carrot.6c53f6e978cdf03f5c6e.png",
     "static/media/cucumber-isolated_93675-131293-Photoroom.png-Photoroom.png": "/marketplace-result/static/media/cucumber-isolated_93675-131293-Photoroom.png-Photoroom.8b50ea72d4037698ac96.png",
     "static/media/Roboto-Medium.ttf": "/marketplace-result/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
@@ -43,10 +43,10 @@
     "static/media/Vector (6).svg": "/marketplace-result/static/media/Vector (6).b980d16cc13ace018ec74eca09c2bb6a.svg",
     "index.html": "/marketplace-result/index.html",
     "main.f5d95838.css.map": "/marketplace-result/static/css/main.f5d95838.css.map",
-    "main.1c26b987.js.map": "/marketplace-result/static/js/main.1c26b987.js.map"
+    "main.af3747b7.js.map": "/marketplace-result/static/js/main.af3747b7.js.map"
   },
   "entrypoints": [
     "static/css/main.f5d95838.css",
-    "static/js/main.1c26b987.js"
+    "static/js/main.af3747b7.js"
   ]
 }
