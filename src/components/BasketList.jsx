@@ -12,6 +12,7 @@ export const BasketList = () => {
 
     
     const {basket, removeProduct} = useContext(customContext)
+    let total = 0
 
   return (
     <>
@@ -24,6 +25,7 @@ export const BasketList = () => {
                 </div>
 
                 {basket.map((item, index) => {
+                    total += +item.price
                     return <BasketItem key={item.id} id={item.id} img={item.img} name={item.name} price={item.price} removeProduct={removeProduct} />
                 })}
 
@@ -78,7 +80,7 @@ export const BasketList = () => {
                  <div className="basket__submit">
                     <div className="basket__submit__price">
                         <span>Итого</span>
-                        <h3>129 ₽</h3>
+                        <h3>{total} ₽</h3>
                     </div>
                     <button>Оформить заказ</button>
                  </div>
