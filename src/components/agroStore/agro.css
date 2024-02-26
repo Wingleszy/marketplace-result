@@ -6,7 +6,8 @@
 .agro__section {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 }
 
 .agro__logo {
@@ -60,6 +61,10 @@
     background-color: #ECE0B5;
     border-radius: 35px;
     padding: 60px;
+<<<<<<< HEAD
+=======
+    margin: 0 0 40px 0;
+>>>>>>> 412c004 (fix)
 }
 
 .addvertation__card span {

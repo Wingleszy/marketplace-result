@@ -7,7 +7,7 @@
 
 body {
     background: #fff;
-    background-image: url(../public/img/bk.svg);
+    background-image: url(./img/bk.svg);
     color: #222;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -374,6 +374,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-bottom: 200px;
 }
 
 .basket__item {
@@ -525,6 +526,15 @@ body {
         flex-direction: column;
     }
 
+    .basket__head h2 {
+        font-size: 20px;
+        display: flex;
+        
+    }
+    
+    .basket__head h5 {
+        font-size: 16px;
+    }
 }
 
 /* /Basket */

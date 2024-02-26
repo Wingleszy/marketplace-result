@@ -46,7 +46,11 @@
     max-width: 240px;
     height: 280px;
     border-radius: 16px;
+<<<<<<< HEAD
     background-image: url(/public/img/card-1.jpg);
+=======
+    background-image: url(../../img/card-1.jpg);
+>>>>>>> 412c004 (fix)
     background-size: cover;
 }
 

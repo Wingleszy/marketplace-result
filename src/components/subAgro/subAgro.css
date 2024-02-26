@@ -2,7 +2,11 @@
    background-color: #ECE0B5;
    padding: 40px 15px;
    border-radius: 35px;
+<<<<<<< HEAD
    margin: 0 0 30px 0;
+=======
+   margin: 0 0 40px 0;
+>>>>>>> 412c004 (fix)
 }
 
 .container {
@@ -21,6 +25,10 @@
 
 .fruitsberries-title {
    display: flex;
+<<<<<<< HEAD
+=======
+   align-items: center;
+>>>>>>> 412c004 (fix)
    gap:10px;
    margin: 0 0 30px 0;
 }
@@ -54,19 +62,41 @@
    margin: 0 0 30px 0;
 }
 
+<<<<<<< HEAD
 .card-items {
    display: inline-block;
    padding: 25px 20px 15px 20px;
+=======
+.categ-card-items {
+   width: 189px;
+   height: 189px;
+>>>>>>> 412c004 (fix)
    border-radius: 30px;
    background-color: #fff;
    text-decoration: none;
    color: black;
 }
+<<<<<<< HEAD
 
 .card-items img {
    margin: 0 0 10px 0;
 }
 
+=======
+.card-items{
+   padding: 10px 20px;
+
+}
+
+.card-items-img {
+   display: flex;
+   justify-content: center;
+   margin: 0 0 10px 0;
+}
+
+
+
+>>>>>>> 412c004 (fix)
 .card-items-name {
    font-size: 16px;
    font-weight: 500;
@@ -86,11 +116,19 @@
 
 .nav-catig-con {
    background-color: #ECE0B5;
+<<<<<<< HEAD
    height: 48px;
    display: flex;
    align-items: center;
    justify-content: space-between;
    padding: 0 10px;
+=======
+   border-radius: 8px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
+>>>>>>> 412c004 (fix)
    margin: 0 0 8px 0;
 }
 
@@ -100,6 +138,13 @@
    align-items: center;
 }
 
+<<<<<<< HEAD
+=======
+.nav-catig-info p {
+   font-weight: 500;
+}
+
+>>>>>>> 412c004 (fix)
 @media (max-width: 1471px) {
    .nav-catig {
        display: none;

@@ -21,6 +21,7 @@ import cucumber1 from '../../img/cucumber-isolated_93675-131293-Photoroom.png-Ph
 
 import Header from '../Header/Header'
 import { Link, useLocation } from 'react-router-dom'
+import Footer from '../Footer/Footer'
 
 export default function Agro() {
 
@@ -158,8 +159,9 @@ export default function Agro() {
                     </div>
 
                 </div>
+                <Footer/>
             </section>
-
+            
         </section>
     </div>
   )

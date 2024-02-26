@@ -7,7 +7,8 @@ export const LoginForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://v89188xu.beget.tech/api/login', {
+      const response = await fetch('https://v89188xu.beget.tech/api/login', {
+
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -7,8 +7,13 @@ export const ItemDesc = (props) => {
 
     const {name, img } = props
 
+<<<<<<< HEAD
     const {addProduct} = useContext(customContext)
     const [id, setId] = useState(0)
+=======
+    const {addProduct, id, setId} = useContext(customContext)
+    // const [id, setId] = useState(0)
+>>>>>>> 412c004 (fix)
 
 
     return (

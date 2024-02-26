@@ -13,7 +13,11 @@ export default function Main() {
   return (
 
   <div className="header-logo">
+<<<<<<< HEAD
     <div className="header-logo-field">
+=======
+    <div className="header-cont">
+>>>>>>> 412c004 (fix)
       <HeadeLogoField/>
     </div>
     <div className="container">
