@@ -1,20 +1,14 @@
 import React from 'react'
 import { PasswordForm } from './PasswordForm'
 import { StyledHeader } from './StyledHeader'
-<<<<<<< HEAD
-=======
-import Footer from './Footer/Footer'
->>>>>>> 412c004 (fix)
+import Footer from "./Footer/Footer";
 
 export const Password = () => {
   return (
     <>
         <StyledHeader />
         <PasswordForm />
-<<<<<<< HEAD
-=======
         <Footer />
->>>>>>> 412c004 (fix)
     </>
   )
 }

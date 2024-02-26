@@ -525,16 +525,18 @@ body {
     .basket__head {
         flex-direction: column;
     }
-
     .basket__head h2 {
         font-size: 20px;
         display: flex;
-        
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     
     .basket__head h5 {
-        font-size: 16px;
+        font-size: 14px;
     }
+
 }
 
 /* /Basket */

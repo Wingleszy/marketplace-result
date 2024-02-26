@@ -1,6 +1,6 @@
 
 import Main from "./components/Main/Main";
-import { HashRouter as  Router, Routes, Route   } from 'react-router-dom';
+import { BrowserRouter as  Router, Routes, Route   } from 'react-router-dom';
 import Agro from "./components/agroStore/Agro";
 import SubAgro from "./components/subAgro/subAgro";
 import { Registration } from "./components/Registration";
