@@ -380,13 +380,14 @@ body {
 .basket__item {
     display: flex;
     flex-direction: row;
-    background-color: #F6F0DA;
+    background-color: #f6f0da;
     border-radius: 15px;
     padding: 10px;
     width: max-content;
     gap: 10px;
     margin-top: 10px;
-    width: max-content;
+    width: 500px;
+    position: relative;
 }
 
 .basket__item_logo {
@@ -404,6 +405,7 @@ body {
 .basket__item__desc h6 {
     font-size: 24px;
     font-weight: 400;
+    text-wrap: wrap;
 }
 
 .basket__item__desc span {
@@ -436,11 +438,14 @@ body {
 }
 
 .basket__item__control {
-    padding-left: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+    justify-self: flex-end;
+    position: absolute;
+    height: 90%;
+    right: 10px;
 }
 
 .basket__item__control button {
@@ -456,6 +461,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     font-style: italic;
+    text-wrap: nowrap;
 }
 
 .basket__submit {
@@ -505,6 +511,7 @@ body {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        width: 300px;
     }
 
     .basket__item__desc {
@@ -537,6 +544,12 @@ body {
         font-size: 14px;
     }
 
+}
+
+@media (max-width: 400px) {
+    .basket__item {
+        width: 250px;
+    }
 }
 
 /* /Basket */
